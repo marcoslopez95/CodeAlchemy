@@ -11,7 +11,7 @@ pages:
   script:
     - npm install
     - npm run build
-    - cp -a dist/. public/
+    - mv dist docs
   artifacts:
     paths:
       - public
